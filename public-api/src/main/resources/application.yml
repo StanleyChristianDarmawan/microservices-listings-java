@@ -1,0 +1,9 @@
+server:
+  address: 0.0.0.0
+  port: 8080
+
+services:
+  listing:
+    base-url: http://localhost:8081
+  user:
+    base-url: http://localhost:8082
